@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spider-Man";
+}
+@font-face {
+    font-family: "Spider-Man";
+    src: url(./font/Spider-Man.otf);
+}
+body{
+    background: url(./img/HcLcfeQBXd2RiQaCeWQDCIFN.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 200px 120px;
+}
+.anchor{
+    display: flex;
+    flex-direction: column;
+}
+#a{
+    font-size: 35px;
+    text-decoration: none;
+    transition: 0.3s;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    /* backdrop-filter: blur(20px); */
+    letter-spacing: 3px;
+}
+#a:hover{
+    box-shadow: -5px 0px 0px 0px red;
+}
